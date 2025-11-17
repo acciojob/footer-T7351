@@ -44,6 +44,12 @@ footer .top {
   transition: 0.3s ease;
 }
 
+.media-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .media-icons a:hover {
   background: #555;
 }
