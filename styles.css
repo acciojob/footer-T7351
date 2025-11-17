@@ -105,3 +105,16 @@ footer .top {
 .bottom-details a:hover {
   color: white;
 }
+
+.media-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.media-icons a {
+  background: #222;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  color: #fff;
+}
