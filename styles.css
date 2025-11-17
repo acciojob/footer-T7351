@@ -1,1 +1,101 @@
-/* your code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background: #111;
+  color: white;
+  width: 100%;
+  padding: 20px 50px;
+}
+
+footer .content {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.logo_name {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.media-icons a {
+  text-decoration: none;
+  background: #222;
+  color: white;
+  margin: 0 6px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.media-icons a:hover {
+  background: #555;
+}
+
+.link-boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 25px;
+}
+
+.box {
+  width: 22%;
+}
+
+.box li {
+  list-style: none;
+  margin: 8px 0;
+}
+
+.box a {
+  color: #bbb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.box a:hover {
+  color: white;
+}
+
+.link_name {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.bottom-details {
+  background: #0c0c0c;
+  margin-top: 30px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-details a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.bottom-details a:hover {
+  color: white;
+}
